@@ -1,11 +1,11 @@
 firstname =("Austin")
 lastname = ("Wahome")
 
-input("Enter your first name:")
-input("Enter your last name: ")
+fullname = input("Enter your full name:")
 
-if firstname & lastname == ("Austin Wahome"):
-    print("Welcome " + firstname + " " + lastname)
+
+if fullname == ("Austin Wahome"):
+    print("Welcome " + "firstname" + " " + "lastname")
 else :
         print("Unregistered user")
 
